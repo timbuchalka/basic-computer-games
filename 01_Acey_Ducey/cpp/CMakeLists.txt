@@ -13,4 +13,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fexperimental-library -stdlib=libc++")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -stdlib=libc++")
 
 # Add each source file as a separate executable
-add_executable(AceyDucey main.cpp)
+add_executable(AceyDucey main.cpp AceyDucey.cpp)
