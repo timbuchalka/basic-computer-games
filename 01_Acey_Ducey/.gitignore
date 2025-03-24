@@ -1,0 +1,63 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Mac metadata files for folder settings
+Icon?
+._*
+
+# macOS resource forks
+*.dSYM/
+*.dSYM
+
+# Executable output on macOS
+*.out
+*.app
+*.bundle
+*.dylib
+
+# CMake build directories (root + subfolders)
+build/
+cmake-build-*/
+*/build/
+*/cmake-build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Object files and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# IDE configs
+.idea/
+*.iml
+.vscode/
+*.user
+
+# Logs and debug
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Binary output (optional)
+bin/
+*.bin
+
+# Ignore test and scratch folders if applicable
+scratch/
+*.test
+*.run
+
+# Backup files and swap
+*~
